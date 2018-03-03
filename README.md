@@ -10,3 +10,9 @@ this cave is created,to stay in the shadows change the default ssh port to the p
     apt-get install openssh-server                        - Installing openssh-server on fresh debian
     sed -i 's/#Port 22/Port 55696/' /etc/ssh/sshd_config  - Replacing disabled Port 22 with Port 55696 and writing to the file
     service sshd restart                                  - Then restarting sshd service in order to run on new port
+
+# Lernaean Hydra
+  In this project you have to turn in a fully functional server written in C that once started would answer a ping with two pong (yeah like the heads of the hydra growing back).
+  
+   -Run server
+   -Run client with 127.0.0.1
