@@ -13,7 +13,7 @@ this cave is created,to stay in the shadows change the default ssh port to the p
 # Lernaean Hydra
   In this project you have to turn in a fully functional server written in C that once started would answer a ping with two pong (yeah like the heads of the hydra growing back).
 
-   - Compile Lernaean Hydra
-   - Compile Lernaean Hydra Client
-   - Run Server
+   - Compile Lernaean Hydra (Server)
+   - Compile Lernaean Hydra (Client)
+   - Run the server
    - Connect to server via client ./client [Ip Address]
