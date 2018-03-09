@@ -27,7 +27,7 @@ int main(int ac, char **av)
 
     if (ac != 2)
     {
-        printf("EX: ./ [IP ADDRESS]\n");
+        printf("EX: ./client [Ip Address]\n");
         return (0);
     }
     if ((socket_fd = socket(AF_INET, SOCK_STREAM, 0)) < 0)
