@@ -17,3 +17,6 @@ this cave is created,to stay in the shadows change the default ssh port to the p
    - Compile Lernaean Hydra (Client)
    - Run the server
    - Connect to server via client ./client [Ip Address]
+
+# Ceryneian Hind
+  In this project it aims to give you a basic approach on a REST API, and how it works and potentially give you a breif understanding on how web API are made. Write a script that takes a text file as a parameter with one login per line and returns the location of each person.
