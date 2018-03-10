@@ -2,7 +2,7 @@
   During 12 weeks, try to walk among the half-gods by doing the infamous twelve labors of Hercules
 
 # Neamean Lion: 
-    As Hercules strangling the mighty beast, you are going to have to create a cave and stayin the shadows.
+  As Hercules strangling the mighty beast, you are going to have to create a cave and stayin the shadows.
 So using vmware you have to create a virtual machine running the latest stable Debian release, once
 this cave is created,to stay in the shadows change the default ssh port to the port you deem hidden enough
 
@@ -11,7 +11,7 @@ this cave is created,to stay in the shadows change the default ssh port to the p
     service sshd restart                                  - Then restarting sshd service in order to run on new port
 
 # Lernaean Hydra
-    In this project you have to turn in a fully functional server written in C that once started would answer a ping with two pong (yeah like the heads of the hydra growing back).
+  In this project you have to turn in a fully functional server written in C that once started would answer a ping with two pong (yeah like the heads of the hydra growing back).
 
    - Compile Lernaean Hydra (Server)
    - Compile Lernaean Hydra (Client)
@@ -19,4 +19,4 @@ this cave is created,to stay in the shadows change the default ssh port to the p
    - Connect to server via client ./client [Ip Address]
 
 # Ceryneian Hind
-    In this project it aims to give you a basic approach on a REST API, and how it works and potentially give you a breif understanding on how web API are made. Write a script that takes a text file as a parameter with one login per line and returns the location of each person.
+  In this project it aims to give you a basic approach on a REST API, and how it works and potentially give you a breif understanding on how web API are made. Write a script that takes a text file as a parameter with one login per line and returns the location of each person.
