@@ -6,20 +6,28 @@ SECRET = ENV["SECRET"]
 client = OAuth2::Client.new(UID, SECRET, site: "https://api.intra.42.fr")
 token = client.client_credentials.get_token
 
+response = token.get("/v2/users")
+until response.status == 200 do
+    puts "Waiting on connection".white    
+    response = token.get("/v2/users")
+    sleep(5.seconds)
+end
+
 if ARGV[0]
     if File.extname(ARGV[0]) == ".txt"
         File.open(ARGV[0]).each_line do |line|
             username = line.chomp
             begin
-                location = token.get("/v2/users/#{username}/locations").parsed
-                if location[0]
-                    host = location[0]["host"]
-                    puts "#{username} ".blue + "is in #{host}".green
+                user = token.get("/v2/users/#{username}").parsed
+                loco = user["location"]             
+                level = user["cursus_users"][0]["level"]
+                if loco
+                    puts "#{username}".white + " is on ".blue + "#{loco}".green + " and Level: ".blue + "#{level}".green
                 else
-                    puts "#{username} ".blue + "is unavailable".yellow
+                    puts "#{username}".white + " is unavailable".yellow
                 end
             rescue
-                puts "#{username} ".blue + "does not exist".red
+                puts "#{username}".white + " does not exist".red
             end
         end
     end
