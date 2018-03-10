@@ -17,7 +17,7 @@ if ARGV[0]
     if File.extname(ARGV[0]) == ".txt"
         File.open(ARGV[0]).each_line do |line|
             username = line.chomp
-            begin;;;;
+            begin
                 user = token.get("/v2/users/#{username}").parsed
                 loco = user["location"]
                 level = user["cursus_users"][0]["level"]
