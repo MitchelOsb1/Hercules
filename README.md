@@ -23,9 +23,10 @@ this cave is created,to stay in the shadows change the default ssh port to the p
 
 # Erymanthian Boar
   This project aims to give you a small approach on timed command and their execution.  Write a small shell script that when you run it will execute it’s code on the upcoming 21st of December at 8:42am. The content of the script can be anything you want.
+```
+  CONTENT="cat boar.txt"
+  TIME="08:42 AM"
+  DATE="12/21/2018"
 
-  CONTENT=$(cat boar.txt)
-  TIME=" 08:42 AM"
-  DATE=" 12/21/2018"
-  
   echo $CONTENT | at $TIME $DATE
+```
