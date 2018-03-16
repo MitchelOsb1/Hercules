@@ -20,3 +20,6 @@ this cave is created,to stay in the shadows change the default ssh port to the p
 
 # Ceryneian Hind
   In this project it aims to give you a basic approach on a REST API, and how it works and potentially give you a breif understanding on how web API are made. Write a script that takes a text file as a parameter with one login per line and returns the location of each person.
+
+# Erymanthian Boar
+  This project aims to give you a small approach on timed command and their execution.  Write a small shell script that when you run it will execute it’s code on the upcoming 21st of December at 8:42am. The content of the script can be anything you want.
