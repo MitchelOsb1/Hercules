@@ -30,3 +30,8 @@ this cave is created,to stay in the shadows change the default ssh port to the p
 
   echo $CONTENT | at $TIME $DATE
 ```
+# Augean Stables
+  Using Valgrind and/or GDB or even without any of these tools you need to make sure that our program has no more memory leaks. It needs to be perfectly waterproof (no leaks, waterproof, get it ;) ).
+
+# Stymphalian Birds
+  Write a script that create your project with at least a gitignore, if it’s a C project it has to add a Makefile and src/lib. You’re script has to take options like the language of your project and the extend of the options (like if you’re including your libft or so).
