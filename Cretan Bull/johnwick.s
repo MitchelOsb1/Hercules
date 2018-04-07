@@ -12,31 +12,3 @@ l1:
 	ld %1337, r2
 	sti r1,%:l1,%1
 	zjmp %:l1
-
-
-; attack:	zjmp%:l1
-; 	zjmp %:jumper
-
-; l1: fork %:l2
-; 	live %1
-; 	ld	%4294967296, r1
-; 	st	r1,	5
-; 	st	r3,	10
-; 	st	r6,	15
-; 	ld %4294967296, r1
-; 	zjmp %:l2
-
-; l3: fork %:l1
-; 	live %1
-; 	ld	%4294967296, r1
-; 	st	r1,	5
-; 	st	r3,	10
-; 	st	r6,	15
-; 	ld %4294967296, r1
-; 	zjmp %:attack
-
-; jumper: sti	r1,%:attack,%1
-; 	sti	r1,%:attack,%15
-; 	sti	r1,%:attack,%20
-; 	sti	r1,%:attack,%25
-; 	sti	r1,%:attack,%30
