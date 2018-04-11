@@ -36,9 +36,14 @@ this cave is created,to stay in the shadows change the default ssh port to the p
 # Stymphalian Birds
   Write a script that create your project with at least a gitignore, if it’s a C project it has to add a Makefile and src/lib. You’re script has to take options like the language of your project and the extend of the options (like if you’re including your libft or so).
 
-![alt text](https://github.com/MitchelOsb1/Hercules/blob/master/ETC/Stymphalian_Birds.png)
+<p align="center">
+  <img src="https://github.com/MitchelOsb1/Hercules/blob/master/ETC/Stymphalian_Birds.png" height="75" width="750">
+</p>
 
 # Cretan Bull
   You have to create a champion that will be able to defeat other champions. It has to stay "live", have more instructions then just the "live" one, having functions is also mandatory (we are coders after all, damn it!) and finally it has to be able to beat the easiest pawns (Zork).
- 
-  ![alt text](https://github.com/MitchelOsb1/Hercules/blob/master/ETC/Cretan%20Bull.png)
+  
+<p align="center">
+  <img src="https://github.com/MitchelOsb1/Hercules/blob/master/ETC/Cretan%20Bull.png" height="200" width="400">
+</p>
+
