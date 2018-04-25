@@ -47,3 +47,8 @@ this cave is created,to stay in the shadows change the default ssh port to the p
   <img src="https://github.com/MitchelOsb1/Hercules/blob/master/ETC/Cretan%20Bull.png" height="200" width="400">
 </p>
 
+# Girdle of Hippolyta
+  Write a program that uses SMTP to send email.
+ <p align="center">
+  <img src="https://github.com/MitchelOsb1/Hercules/blob/master/ETC/girdle_of_hippo.png" height="50" width="150">
+</p>
