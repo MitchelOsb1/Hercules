@@ -44,11 +44,11 @@ this cave is created,to stay in the shadows change the default ssh port to the p
   You have to create a champion that will be able to defeat other champions. It has to stay "live", have more instructions then just the "live" one, having functions is also mandatory (we are coders after all, damn it!) and finally it has to be able to beat the easiest pawns (Zork).
   
 <p align="center">
-  <img src="https://github.com/MitchelOsb1/Hercules/blob/master/ETC/Cretan%20Bull.png" height="200" width="400">
+  <img src="https://github.com/MitchelOsb1/Hercules/blob/master/ETC/Cretan%20Bull.png" height="200" width="430">
 </p>
 
 # Girdle of Hippolyta
   Write a program that uses SMTP to send email.
  <p align="center">
-  <img src="https://github.com/MitchelOsb1/Hercules/blob/master/ETC/girdle_of_hippo.png" height="50" width="150">
+  <img src="https://github.com/MitchelOsb1/Hercules/blob/master/ETC/girdle_of_hippo.png" height="42" width="400">
 </p>
